@@ -6,31 +6,24 @@
 
 header {
 
-    display: flex;
+   
     justify-content: space-between;
     background-color: #4D4D4D;
     align-items: center;
     height: 75px;
 
     .logo {
+        
+        padding-top: 10px;
         margin-left: 25px;
     }
 
-    #nav {
-        ul {
-            li {
-                margin-right: 30px;
-
-            }
-
-
-
-        }
+ 
     }
-
     .navbar-nav {
+        background-color: #4D4D4D;
         .nav-link {
-            color: black;
+            color: white;
 
             &:active {
                 color: #FDBA0E;
@@ -41,8 +34,16 @@ header {
             }
         }
 
-    }
+    
+   .nav-link{
+    margin-left: 20px;
+    margin-right: 50px;
+    font-size: 20px;
+   }
 }
+
+    
+
 
 #home {
 
@@ -208,121 +209,214 @@ header {
 #works {
     background-color: white;
     padding-bottom: 108px;
+
     div {
         h1 {
             font-size: 28px;
             padding-bottom: 16px;
             padding-top: 48px;
         }
-        img{
+
+        img {
             padding-bottom: 40px;
         }
     }
 
     #carouselExampleIndicators {
-         .carousel-control-next, .carousel-control-prev{
+
+        .carousel-control-next,
+        .carousel-control-prev {
             background-color: red;
-         }
-         .carousel-indicators [data-bs-target]{
+        }
+
+        .carousel-indicators [data-bs-target] {
             width: 10px;
             height: 10px;
             border-radius: 50%;
-         }
-         .carousel-indicators [data-bs-target]{
+        }
+
+        .carousel-indicators [data-bs-target] {
             background-color: gray;
             opacity: 1;
-            &:active{
-                background-color: orange;
-                opacity: 1;
-            }
-             &:hover{
-                background-color: orange;
-                opacity: 1;
-            }
-             &:before{
+
+            &:active {
                 background-color: orange;
                 opacity: 1;
             }
 
-         }
+            &:hover {
+                background-color: orange;
+                opacity: 1;
+            }
+
+            &:before {
+                background-color: orange;
+                opacity: 1;
+            }
+
+        }
+
         .carousel-inner {
-            
-            
+
+
             img {
-                width: 50%!important;
+                width: 50% !important;
                 height: 440px;
                 margin-left: 15px;
             }
-            .flex{
+
+            .flex {
                 display: flex;
             }
         }
     }
-   
+
 }
-#opinion{
+
+#opinion {
     background-color: #F7F7F7;
-    div{
+
+    div {
         text-align: center;
-        h1{
+
+        h1 {
             padding-top: 48px;
             font-size: 28px;
             padding-bottom: 16px;
         }
-        img{
+
+        img {
             padding-bottom: 48px;
         }
     }
+
     .carousel-inner {
-            
-            
-            img {
-                width: 49%!important;
-                height: 440px;
-                margin-left: 15px;
-            }
-            .flex{
-                display: flex;
-            }
+
+
+        img {
+            width: 49% !important;
+            height: 300px;
+            margin-left: 15px;
         }
+
+        .flex {
+            display: flex;
+        }
+    }
 }
-footer{
+
+footer {
     background-color: #4D4D4D;
     height: 130px;
-     display: flex;
-           align-items: center;
-    .container{
-        
-          
-        .jedan{
+    display: flex;
+    align-items: center;
+
+    .container {
+
+
+        .jedan {
             color: white;
-            
-            
+
+
             display: flex;
             justify-content: space-between;
             align-items: center;
-            p{
+
+            p {
                 margin: 0 auto;
             }
-           .logo{
-            margin-top: 15px;
-           }
+
+            .logo {
+                margin-top: 15px;
+            }
         }
-        .dva{
+
+        .dva {
             color: white;
             text-align: center;
-             display: flex;
-            
+            display: flex;
+
             align-items: center;
-            p{
-                
+
+            p {
+
                 margin: auto 0;
-                
+
             }
-            img{
+
+            img {
                 margin-left: 15px;
-                
+
+
             }
         }
     }
+}
+
+@media (max-width:992px) {
+    #about {
+        .container{
+            width: 100%;
+            display: flex;
+            .progres{
+                margin-right: 20px;
+                margin-top: 90px;
+                width: 30%;
+               
+            }
+     .bbm{
+        display: block;
+        width: 70%;
+        text-align: center;
+        margin-bottom: 100px;
+        margin-left: 0;
+        vertical-align: top;
+        height: auto;
+        p{
+            width: 100%;
+            font-size: 18px;
+            
+            
+        }
+        h1{
+            padding-top: 20px;
+        }
+        
+
+     }
+        
+    }
+    }
+    #clients{
+        .clientlogo{
+            width: 100%;
+            img{
+                width: 90%;
+            }
+        }
+    }
+
+ 
+}
+@media  screen and (max-width:768px) {
+    
+    #form{
+        width: 100%;
+        input{
+            width: 300px;
+        }
+    }
+   footer{
+    .container{
+        .dva{
+            display: block;
+        }
+    }
+   }
+   
+
+
+}
+@media  screen and(max-width:) {
+    
 }
