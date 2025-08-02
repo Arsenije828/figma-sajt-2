@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #4D4D4D;
+    align-items: center;
+    height: 75px;
+
+    .logo {
+        margin-left: 25px;
+    }
+
+    #nav {
+        ul {
+            li {
+                margin-right: 30px;
+
+            }
+
+
+
+        }
+    }
+
+    .navbar-nav {
+        .nav-link {
+            color: black;
+
+            &:active {
+                color: #FDBA0E;
+            }
+
+            &:hover {
+                color: #FDBA0E;
+            }
+        }
+
+    }
+}
+
+#home {
+
+    background-color: #E5E5E5;
+    padding-bottom: 88px;
+
+    #paragraf {
+        text-align: center;
+
+        h1 {
+            padding-top: 75px;
+            font-size: 44px;
+
+            span {
+                color: #FDBA0E;
+            }
+        }
+
+        p {
+            padding: 24px 0;
+            font-size: 22px;
+            color: #1A1A1A;
+        }
+    }
+
+
+
+    #forma {
+        background-color: white;
+        width: 744px;
+        padding-top: 32px;
+        padding-left: 24px;
+        padding-right: 24px;
+
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 0 auto;
+        gap: 0;
+
+        input {
+            background-color: #F4F4F4;
+            border: none;
+            border-radius: 5px;
+            margin: 12px 12px;
+            width: 336px;
+            height: 46px;
+        }
+
+
+
+
+    }
+
+    .button {
+        text-align: center;
+        background-color: white;
+        width: 744px;
+        height: 112px;
+        margin: 0 auto;
+
+        button {
+            width: 188px;
+            height: 48px;
+            background-color: #FDBA0E;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            margin: 32px 0;
+
+            &:hover {
+                background-color: #E5E5E5;
+                color: #FDBA0E;
+
+            }
+
+
+
+
+        }
+
+    }
+
+}
+
+#about {
+    .container {
+        display: flex;
+        padding-bottom: 68px;
+
+        .progres {
+
+            margin-top: 82px;
+            width: 486px;
+            height: 346px;
+
+            div {
+                p {
+                    font-size: 18px;
+                    padding-bottom: 24px;
+                }
+            }
+
+            .progress-container {
+                width: 100%;
+                background-color: #e0e0e0;
+                border-radius: 10px;
+                overflow: hidden;
+                height: 10px;
+                margin: 5px 0;
+            }
+
+            .progress-bar {
+                height: 100%;
+                background-color: #0066FF;
+                width: 0%;
+                transition: width 0.5s ease;
+            }
+        }
+
+        .bbm {
+            vertical-align: bottom;
+            text-align: left;
+            width: 478px;
+            height: 344px;
+            margin-left: 140px;
+
+            h1 {
+                padding-top: 64px;
+                padding-bottom: 16px;
+            }
+
+            img {
+                width: 100%;
+                padding-bottom: 16px;
+            }
+        }
+    }
+}
+
+#clients {
+    text-align: center;
+    background-color: #E5E5E5;
+
+    .paragraf {
+        h1 {
+            padding-top: 48px;
+            font-size: 28px;
+        }
+
+        img {
+            padding-top: 16px;
+            padding-bottom: 48px;
+        }
+    }
+
+    .clientlogo {
+        padding-bottom: 48px;
+    }
+}
+
+#works {
+    background-color: white;
+    padding-bottom: 108px;
+    div {
+        h1 {
+            font-size: 28px;
+            padding-bottom: 16px;
+            padding-top: 48px;
+        }
+        img{
+            padding-bottom: 40px;
+        }
+    }
+
+    #carouselExampleIndicators {
+         .carousel-control-next, .carousel-control-prev{
+            background-color: red;
+         }
+         .carousel-indicators [data-bs-target]{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+         }
+         .carousel-indicators [data-bs-target]{
+            background-color: gray;
+            opacity: 1;
+            &:active{
+                background-color: orange;
+                opacity: 1;
+            }
+             &:hover{
+                background-color: orange;
+                opacity: 1;
+            }
+             &:before{
+                background-color: orange;
+                opacity: 1;
+            }
+
+         }
+        .carousel-inner {
+            
+            
+            img {
+                width: 50%!important;
+                height: 440px;
+                margin-left: 15px;
+            }
+            .flex{
+                display: flex;
+            }
+        }
+    }
+   
+}
+#opinion{
+    background-color: #F7F7F7;
+    div{
+        text-align: center;
+        h1{
+            padding-top: 48px;
+            font-size: 28px;
+            padding-bottom: 16px;
+        }
+        img{
+            padding-bottom: 48px;
+        }
+    }
+    .carousel-inner {
+            
+            
+            img {
+                width: 49%!important;
+                height: 440px;
+                margin-left: 15px;
+            }
+            .flex{
+                display: flex;
+            }
+        }
+}
+footer{
+    background-color: #4D4D4D;
+    height: 130px;
+     display: flex;
+           align-items: center;
+    .container{
+        
+          
+        .jedan{
+            color: white;
+            
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p{
+                margin: 0 auto;
+            }
+           .logo{
+            margin-top: 15px;
+           }
+        }
+        .dva{
+            color: white;
+            text-align: center;
+             display: flex;
+            
+            align-items: center;
+            p{
+                
+                margin: auto 0;
+                
+            }
+            img{
+                margin-left: 15px;
+                
+            }
+        }
+    }
+}
